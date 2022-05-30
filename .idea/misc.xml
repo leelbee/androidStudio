@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/GARDEN/AndroidStudioProjects/androidStudio/app/src/main/res/layout/activity_find_id.xml" value="0.12681159420289856" />
+        <entry key="..\:/Users/GARDEN/AndroidStudioProjects/androidStudio/app/src/main/res/layout/activity_main.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/GARDEN/AndroidStudioProjects/androidStudio/app/src/main/res/layout/activity_sign_up.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/GARDEN/AndroidStudioProjects/androidStudio/app/src/main/res/layout/activity_station.xml" value="0.20104166666666667" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/BusStopProject/app/src/main/res/layout/activity_find_id.xml" value="0.33958333333333335" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/BusStopProject/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/lee/AndroidStudioProjects/BusStopProject/app/src/main/res/layout/activity_sign_up.xml" value="0.33958333333333335" />

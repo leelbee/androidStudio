@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.busstopproject">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BusStopProject">
+
+        <activity
+            android:name=".StationActivity"
+            android:exported="false"
+            android:label="천안 버스 노선도"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,9 +26,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SignUpActivity"></activity>
-        <activity android:name=".FindIdActivity"></activity>
-        <activity android:name=".MenuActivity"></activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FindIdActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MenuActivity" />
     </application>
 
 </manifest>

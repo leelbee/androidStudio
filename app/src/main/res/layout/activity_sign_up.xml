@@ -2,127 +2,143 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E8FFEB3B"
     android:orientation="vertical">
 
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="회원가입"
-        android:textSize="50dp"
-        android:layout_gravity="center"/>
+        android:textColor="#F44336"
+        android:textSize="50dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.79"/>
+            android:layout_weight="0.79" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NAME  "/>
+            android:text="NAME  "
+            android:textColor="@color/black" />
+
         <EditText
+            android:id="@+id/et_name"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_name"/>
+            android:layout_height="wrap_content" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID  "/>
+            android:text="ID  "
+            android:textColor="@color/black" />
+
         <EditText
+            android:id="@+id/et_id"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_id"/>
+            android:layout_height="wrap_content" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.515"/>
+            android:layout_weight="0.515" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PASSWARD  "/>
+            android:text="PASSWARD  "
+            android:textColor="@color/black" />
+
         <EditText
+            android:id="@+id/et_password"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_password"/>
+            android:layout_height="wrap_content" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.93"/>
+            android:layout_weight="0.93" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="H.P  "/>
+            android:text="H.P  "
+            android:textColor="@color/black" />
+
         <EditText
+            android:id="@+id/et_phone"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/et_phone"/>
+            android:layout_height="wrap_content" />
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
     </LinearLayout>
 
     <View
         android:layout_width="wrap_content"
-        android:layout_height="20dp"/>
+        android:layout_height="20dp" />
 
     <Button
+        android:id="@+id/btn_sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="회원등록"
         android:layout_gravity="center"
-        android:id="@+id/btn_sign_up"
-        android:onClick="onSignUpButtonClick"/>
+        android:backgroundTint="#A603A9F4"
+        android:onClick="onSignUpButtonClick"
+        android:text="회원등록"
+        android:textColor="@color/black" />
 
     <View
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
 </LinearLayout>

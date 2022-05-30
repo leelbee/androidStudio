@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         et_id = findViewById(R.id.et_id);
         et_password = findViewById(R.id.et_password);
     }
+    //예시
+    public void onStationButtonClick(View v){
+        Intent intent = new Intent(getApplicationContext(), StationActivity.class);
+        startActivity(intent);
+    }
 
     //회원가입 버튼 클릭시
     public void onSignUpButtonClick(View v){
@@ -36,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //아이디/비밀번호 찾기 버튼 클릭시
-//    public void onFindIdButtonClick(View v){
-//        Intent intent = new Intent(MainActivity.this, FindIdActivity.class);
-//        startActivity(intent);
-//    }
+    public void onFindIdButtonClick(View v){
+        Intent intent = new Intent(MainActivity.this, FindIdActivity.class);
+        startActivity(intent);
+    }
 
     //로그인 버튼 클릭시
     public void  onLoginButtonClick(View v){

@@ -9,18 +9,18 @@ import com.android.volley.toolbox.StringRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindIdRequest extends StringRequest{
+public class SearchRequest extends StringRequest{
 
     //서버 URL 설정(php 파일 연동)
-    final static private String URL = "http://mobilepro7.dothome.co.kr/FindId.php";
+    final static private String URL = "http://mobilepro7.dothome.co.kr/SearchBusNum.php";
     private Map<String, String> map;
 
-    public FindIdRequest(String u_name, String u_phone, Response.Listener<String> listener){
+    public SearchRequest(String s_name, Response.Listener<String> listener){
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
-        map.put("u_name", u_name);
-        map.put("u_phone", u_phone);
+        map.put("s_name", s_name);
+
     }
 
     @Nullable

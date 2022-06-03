@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
     //예시
     public void onStationButtonClick(View v){
-        Intent intent = new Intent(getApplicationContext(), StationActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SearchActivity.class);
         startActivity(intent);
     }
 

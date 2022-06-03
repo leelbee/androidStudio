@@ -9,18 +9,18 @@ import com.android.volley.toolbox.StringRequest;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindIdRequest extends StringRequest{
+public class DriverInfoRequest extends StringRequest{
 
     //서버 URL 설정(php 파일 연동)
-    final static private String URL = "http://mobilepro7.dothome.co.kr/FindId.php";
+    final static private String URL = "http://mobilepro7.dothome.co.kr/DriverInfo.php";
     private Map<String, String> map;
 
-    public FindIdRequest(String u_name, String u_phone, Response.Listener<String> listener){
+    public DriverInfoRequest(String d_bus_num, String d_way, Response.Listener<String> listener){
         super(Method.POST, URL, listener, null);
 
         map = new HashMap<>();
-        map.put("u_name", u_name);
-        map.put("u_phone", u_phone);
+        map.put("d_bus_num", d_bus_num);
+        map.put("d_way", d_way);
     }
 
     @Nullable

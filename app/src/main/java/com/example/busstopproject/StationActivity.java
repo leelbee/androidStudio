@@ -28,7 +28,7 @@ public class StationActivity extends AppCompatActivity {
     public void onClick(View v){
         Intent i1 = null;
         switch(v.getId()) {
-            case R.id.button1:
+            case R.id.btn_search:
                 i1 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:(+82)10-111-2222"));
                 break;
             case R.id.button2:

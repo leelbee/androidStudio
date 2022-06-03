@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BusStopProject">
+        android:theme="@style/Theme.BusStopProject"
+        android:usesCleartextTraffic="true">
 
         <activity
             android:name=".StationActivity"
@@ -33,6 +34,7 @@
             android:name=".FindIdActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MenuActivity" />
+        <activity android:name=".SearchActivity" />
     </application>
 
 </manifest>

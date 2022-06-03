@@ -20,22 +20,25 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.79" />
+            android:layout_weight="0.77" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="NAME  "
+            android:text="NAME"
+            android:gravity="right"
             android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/et_name"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content" />
 
         <View
@@ -46,22 +49,26 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="0.98" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ID  "
+            android:text="ID"
+            android:gravity="right"
+            android:layout_weight="0"
             android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/et_id"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content" />
 
         <View
@@ -72,48 +79,53 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        android:gravity="center">
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.515" />
+            android:layout_weight="0.5"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PASSWARD  "
+            android:text="PASSWARD"
             android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/et_password"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content" />
-
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"/>
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="center">
 
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_weight="0.93" />
+            android:layout_weight="0.92" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="H.P  "
+            android:text="H.P"
+            android:layout_weight="0"
+            android:gravity="right"
             android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/et_phone"
-            android:layout_width="150dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content" />
 
         <View

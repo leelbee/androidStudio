@@ -49,7 +49,6 @@ public class FindIdActivity extends AppCompatActivity {
                         tv_password.setText("비밀번호: " + u_password);
                     }else{
                         Toast.makeText(getApplicationContext(), "조회 실패", Toast.LENGTH_SHORT).show();
-                        return;
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
